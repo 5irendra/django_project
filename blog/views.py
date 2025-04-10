@@ -11,8 +11,6 @@ from django.views.generic import (
 )
 
 from .models import Post
-from rest_framework.response import Response
-from rest_framework.decorators import api_view
 import json
 
 # from django.http import HttpResponse
